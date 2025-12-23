@@ -20,6 +20,17 @@ html, body {
   color: #C5A059;
 }
 
+*:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--foreground);
+}
+
+button:hover, a:hover {
+  cursor: pointer;
+  color: white;
+  border-color: white;
+}
+
 body {
   display: flex;
   justify-content: center;
